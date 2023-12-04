@@ -22,3 +22,10 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+.idea/codeStyles/Project.xml
+.idea/codeStyles/codeStyleConfig.xml
+.idea/JavaFullstackBatch1204.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/artifacts/JavaFullstackBatch1204_ear_exploded.xml
