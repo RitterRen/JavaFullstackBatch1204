@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Management</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+        }
+        .add-product {
+            margin-top: 20px;
+        }
+        input[type="text"] {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Product Management</h1>
+    <table id="productTable">
+        <tr>
+            <th>Product Name</th>
+            <th>Product Category</th>
+            <th>Product Price</th>
+            <th>Action</th>
+        </tr>
+    </table>
+
+    <div class="add-product">
+        <h2>Add Product</h2>
+        <form id="addProductForm">
+            <label for="product-name">Product Name:</label>
+            <input type="text" id="product-name" name="product-name">
+            <label for="product-category">Product Category:</label>
+            <input type="text" id="product-category" name="product-category">
+            <label for="product-price">Product Price:</label>
+            <input type="text" id="product-price" name="product-price">
+            <button type="submit">Add New</button>
+        </form>
+    </div>
+</body>
+
+<Script text="js" src="./product_management.js"></Script>
+</html>
