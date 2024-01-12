@@ -1,0 +1,3 @@
+<!-- app.component.html -->
+<app-product-table [products]="products" (delete)="handleDelete($event)"></app-product-table>
+<app-add-product (productAdded)="handleAdd($event)"></app-add-product>

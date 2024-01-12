@@ -1,0 +1,17 @@
+<!-- add-product.component.html -->
+
+<div>
+    <label>
+      Product Name:
+      <input #productName type="text">
+    </label>
+    <label>
+      Product Category:
+      <input #productCategory type="text">
+    </label>
+    <label>
+      Product Price:
+      <input #productPrice type="number">
+    </label>
+    <button (click)="addProduct(productName.value, productCategory.value, +productPrice.value)">Add New</button>
+</div>

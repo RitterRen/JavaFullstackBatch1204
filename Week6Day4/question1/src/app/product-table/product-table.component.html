@@ -1,0 +1,17 @@
+<!-- product-table.component.html -->
+
+<table>
+    <tr>
+      <th>Product Name</th>
+      <th>Product Category</th>
+      <th>Product Price</th>
+      <th>Action</th>
+    </tr>
+    <tr *ngFor="let product of products; let i = index">
+      <td>{{ product.name }}</td>
+      <td>{{ product.category }}</td>
+      <td>\${{ product.price }}</td>
+      <td><button (click)="deleteProduct(i)">Delete</button></td>
+    </tr>
+</table>
+
