@@ -1,0 +1,22 @@
+.tabs button {
+    padding: 10px;
+    border: none;
+    background-color: lightgray;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .tabs button:focus {
+    outline: none;
+    background-color: gray;
+  }
+  
+  .content {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  /* Optional: Add some styling to indicate which tab is active */
+  button.active {
+    background-color: gray;
+  }

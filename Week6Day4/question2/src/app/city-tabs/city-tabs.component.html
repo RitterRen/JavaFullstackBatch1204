@@ -1,0 +1,10 @@
+<div class="tabs">
+    <button (click)="changeCityWithId(0)">London</button>
+    <button (click)="changeCityWithId(1)">Guangzhou</button>
+    <button (click)="changeCityWithId(2)">Tokyo</button>
+  </div>
+  
+  <div class="content">
+    <h2>{{currentCity.name}}</h2>
+    <p>{{currentCity.description}}</p>
+  </div>
