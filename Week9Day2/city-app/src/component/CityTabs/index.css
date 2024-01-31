@@ -1,0 +1,45 @@
+.tab-component {
+    font-family: Arial, sans-serif;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .tab-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: inherit;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .tab-button:hover {
+    background-color: #ddd;
+  }
+  
+  .tab-button.active {
+    border-bottom: 2px solid #444;
+  }
+  
+  .tab-content {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  
+  .tab-content h1 {
+    margin-top: 0;
+  }
+  
+  /* 以下是额外的样式，用于匹配你提供的图像的视觉效果 */
+  .tab-content p {
+    font-size: 18px;
+    color: #333;
+  }
+  
